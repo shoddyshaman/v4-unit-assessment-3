@@ -1,0 +1,76 @@
+.App{
+  text-align: center;
+}
+
+.header{
+  color:#139494;
+  /* background-color:#F3F3F3; */
+}
+
+.searchBar{
+  background-color:#F3F3F3;
+  margin-top:10px;
+  align-items:center;
+  padding:20px;
+}
+
+.App-body {
+  background-color:#F3F3F3;
+  min-height: 100vh;
+  display:flex ;
+  /* flex-direction: row; */
+  /* flex: 0 auto; */
+  /* align-items: center; */
+  justify-content:space-between ;
+  align-items: row;
+  /* font-size: calc(10px + 2vmin); */
+  color:#414141;
+  text-align: center;
+}
+
+.shelf{
+  /* position: relative;
+  right:100px; */
+  width:35%;
+  border-left: solid 2px #4d4d4d;
+  font-size:14px;
+  color:#363434;
+  padding:10px;
+  margin-left: 10px;
+}
+
+.book-display{ 
+  display: flex;
+  /* justify-content:space-around; */
+  /* align-items:row; */
+  align-content: center;
+  flex-flow: row wrap;
+  font-size: 12px;
+  /* width: 75%; */
+}
+
+img {  
+  height:150px;
+}
+
+.book{
+  width:150px;
+  margin:10px auto;
+  text-align:center;
+}
+
+.shelfGreeting{
+  margin:10px auto;
+  color:#139494;
+  font-size:18px;
+  font-weight: bold;
+}
+
+button{
+  background-color:#363434;
+  color:#57c0c0;
+}
+button:hover{
+  background-color: #139494;
+  color:white;
+}
